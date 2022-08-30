@@ -20,3 +20,22 @@ public class Example
 ```
 
 ![9](https://user-images.githubusercontent.com/6134875/87103642-99d25900-c290-11ea-8f34-9a05d13188a7.gif)
+
+```csharp
+using Kogane;
+using UnityEditor;
+
+public class Example
+{
+    [MenuItem( "Tools/Hoge" )]
+    private static void Hoge()
+    {
+        SceneHierarchyInternal.SetSearchFilter
+        (
+            searchFilter: "ピカチュウ",
+            searchMode: SearchableEditorWindow.SearchMode.All,
+            setAll: true
+        );
+    }
+}
+```
