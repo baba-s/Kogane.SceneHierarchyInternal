@@ -19,7 +19,7 @@ public class Example
 }
 ```
 
-![9](https://user-images.githubusercontent.com/6134875/87103642-99d25900-c290-11ea-8f34-9a05d13188a7.gif)
+![icon459](https://user-images.githubusercontent.com/6134875/187427904-a2cc9e9e-2f6a-4017-9f5f-5b2be6eded9c.gif)
 
 ```csharp
 using Kogane;
@@ -39,3 +39,5 @@ public class Example
     }
 }
 ```
+
+![icon458](https://user-images.githubusercontent.com/6134875/187427919-13aadd09-5836-4faf-9ed3-81d388639fac.gif)
