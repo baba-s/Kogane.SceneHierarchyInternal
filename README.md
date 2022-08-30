@@ -1,4 +1,4 @@
-# UniSceneHierarchyInternal
+# Kogane Scene Hierarchy Internal
 
 SceneHierarchy クラスの internal な機能にアクセスできる機能
 

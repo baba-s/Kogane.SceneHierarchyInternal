@@ -1,5 +1,5 @@
 {
-    "name": "UniSceneHierarchyInternal",
+    "name": "Kogane.SceneHierarchyInternal",
     "references": [],
     "includePlatforms": [
         "Editor"
