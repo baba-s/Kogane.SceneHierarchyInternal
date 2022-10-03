@@ -7,6 +7,21 @@ namespace Kogane
 {
     public static class SceneHierarchyInternal
     {
+        public static string SearchFilter
+        {
+            get
+            {
+                var sceneHierarchyWindow = GetSceneHierarchyWindow();
+
+                if ( sceneHierarchyWindow == null ) return string.Empty;
+
+                var searchableEditorWindowType = typeof( SearchableEditorWindow );
+                var searchFilterField          = searchableEditorWindowType.GetField( "m_SearchFilter", BindingFlags.Instance | BindingFlags.NonPublic );
+
+                return ( string )searchFilterField.GetValue( sceneHierarchyWindow );
+            }
+        }
+
         public static void RenameGO()
         {
             var sceneHierarchyWindow = GetSceneHierarchyWindow();
